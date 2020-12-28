@@ -264,7 +264,7 @@ class ZDSet2(LRPlayer):
     ) -> None:
         super().__init__(phi, s, l)
         
-class Test(LRPlayer):
+class Good_ZD1(LRPlayer):
     """
     A Generous Zero Determinant Strategy with l=R.
 
@@ -273,7 +273,7 @@ class Test(LRPlayer):
     - ZDGTFT-2: [Stewart2012]_
     """
 
-    name = "Test"
+    name = "Good ZD"
 
     def __init__(self, phi: float = 0.1, s: float = 1) -> None:
         # l = R will be set by receive_match_attributes
@@ -283,3 +283,44 @@ class Test(LRPlayer):
         (R, P, S, T) = self.match_attributes["game"].RPST()
         self.l = R
         super().receive_match_attributes()
+        
+class Good_ZD2(LRPlayer):
+    """
+    A Generous Zero Determinant Strategy with l=R.
+
+    Names:
+
+    - ZDGTFT-2: [Stewart2012]_
+    """
+
+    name = "Good ZD2"
+
+    def __init__(self, phi: float = 0.16, s: float = 1) -> None:
+        # l = R will be set by receive_match_attributes
+        super().__init__(phi, s, None)
+
+    def receive_match_attributes(self):
+        (R, P, S, T) = self.match_attributes["game"].RPST()
+        self.l = R
+        super().receive_match_attributes()
+
+class Good_ZD3(LRPlayer):
+    """
+    A Generous Zero Determinant Strategy with l=R.
+
+    Names:
+
+    - ZDGTFT-2: [Stewart2012]_
+    """
+
+    name = "Good ZD3"
+
+    def __init__(self, phi: float = 0.02, s: float = 1) -> None:
+        # l = R will be set by receive_match_attributes
+        super().__init__(phi, s, None)
+
+    def receive_match_attributes(self):
+        (R, P, S, T) = self.match_attributes["game"].RPST()
+        self.l = R
+        super().receive_match_attributes()
+
