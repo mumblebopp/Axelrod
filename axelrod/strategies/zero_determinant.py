@@ -264,7 +264,7 @@ class ZDSet2(LRPlayer):
     ) -> None:
         super().__init__(phi, s, l)
         
-class test(LRPlayer):
+class Test(LRPlayer):
     """
     A Generous Zero Determinant Strategy with l=R.
 
