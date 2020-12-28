@@ -180,6 +180,11 @@ from .memoryone import (
     StochasticWSLS,
     WinShiftLoseStay,
     WinStayLoseShift,
+    Invi_1,
+    Invi_2,
+    Good_1,
+    Good_2,
+    Mean,
 )
 from .memoryone import (  # pylint: disable=unused-import
     ReactivePlayer,
@@ -513,4 +518,9 @@ all_strategies = [
     Good_ZD1,
     Good_ZD2,
     Good_ZD3,
+    Invi_1,
+    Invi_2,
+    Good_1,
+    Good_2,
+    Mean,
 ]
