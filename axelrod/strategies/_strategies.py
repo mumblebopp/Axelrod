@@ -277,7 +277,9 @@ from .zero_determinant import (
     ZDGen2,
     ZDMischief,
     ZDSet2,
-    Test,
+    Good_ZD1,
+    Good_ZD2,
+    Good_ZD3,
 )
 
 # Note: Meta* strategies are handled in .__init__.py
@@ -508,5 +510,7 @@ all_strategies = [
     ZDMischief,
     ZDSet2,
     e,
-    Test,
+    Good_ZD1,
+    Good_ZD2,
+    Good_ZD3,
 ]
