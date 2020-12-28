@@ -351,7 +351,7 @@ class ReactivePlayer(MemoryOnePlayer):
         super().__init__(four_vector)
         
         
-class Invi_1(MemoryOnePlayer,initial: Action = D):
+class Invi_1(MemoryOnePlayer):
     """
     A generic reactive player. Defined by 2 probabilities conditional on the
     opponent's last move: P(C|C), P(C|D).
@@ -367,9 +367,9 @@ class Invi_1(MemoryOnePlayer,initial: Action = D):
         four_vector = (0.3996,0.005,0.248,0)
         super().__init__(four_vector)
         self.set_four_vector(four_vector)
-        self._initial = initial
+        
 
-class Invi_2(MemoryOnePlayer,initial: Action = D):
+class Invi_2(MemoryOnePlayer):
     """
     A generic reactive player. Defined by 2 probabilities conditional on the
     opponent's last move: P(C|C), P(C|D).
@@ -385,9 +385,9 @@ class Invi_2(MemoryOnePlayer,initial: Action = D):
         four_vector = (0.5628,0.338,0.508,0)
         super().__init__(four_vector)
         self.set_four_vector(four_vector)
-        self._initial = initial
+        
 
-class Good_1(MemoryOnePlayer,initial: Action = D):
+class Good_1(MemoryOnePlayer):
     """
     A generic reactive player. Defined by 2 probabilities conditional on the
     opponent's last move: P(C|C), P(C|D).
@@ -403,9 +403,9 @@ class Good_1(MemoryOnePlayer,initial: Action = D):
         four_vector = (1, 0.925,0.029,0)
         super().__init__(four_vector)
         self.set_four_vector(four_vector)
-        self._initial = initial
         
-class Good_2(MemoryOnePlayer,initial: Action = D):
+        
+class Good_2(MemoryOnePlayer):
     """
     A generic reactive player. Defined by 2 probabilities conditional on the
     opponent's last move: P(C|C), P(C|D).
@@ -421,9 +421,9 @@ class Good_2(MemoryOnePlayer,initial: Action = D):
         four_vector = (1, 0.056,0.423,0)
         super().__init__(four_vector)
         self.set_four_vector(four_vector)
-        self._initial = initial
+       
         
-class Mean(MemoryOnePlayer,initial: Action = D):
+class Mean(MemoryOnePlayer):
     """
     A generic reactive player. Defined by 2 probabilities conditional on the
     opponent's last move: P(C|C), P(C|D).
@@ -435,8 +435,8 @@ class Mean(MemoryOnePlayer,initial: Action = D):
 
     name = "Mean"
 
-    def __init__(self,initial: Action = D) -> None:
+    def __init__(self) -> None:
         four_vector = (0,0,1,0)
         super().__init__(four_vector)
         self.set_four_vector(four_vector)
-        self._initial = initial
+        
