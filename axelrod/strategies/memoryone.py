@@ -353,12 +353,7 @@ class ReactivePlayer(MemoryOnePlayer):
         
 class Invi_1(MemoryOnePlayer):
     """
-    A generic reactive player. Defined by 2 probabilities conditional on the
-    opponent's last move: P(C|C), P(C|D).
-
-    Names:
-
-    - Reactive: [Nowak1989]_
+   
     """
 
     name = "Invincible 1"
@@ -371,12 +366,7 @@ class Invi_1(MemoryOnePlayer):
 
 class Invi_2(MemoryOnePlayer):
     """
-    A generic reactive player. Defined by 2 probabilities conditional on the
-    opponent's last move: P(C|C), P(C|D).
-
-    Names:
-
-    - Reactive: [Nowak1989]_
+  
     """
 
     name = "Invincible 2"
@@ -389,12 +379,7 @@ class Invi_2(MemoryOnePlayer):
 
 class Good_1(MemoryOnePlayer):
     """
-    A generic reactive player. Defined by 2 probabilities conditional on the
-    opponent's last move: P(C|C), P(C|D).
-
-    Names:
-
-    - Reactive: [Nowak1989]_
+   
     """
 
     name = "Good 1"
@@ -407,12 +392,7 @@ class Good_1(MemoryOnePlayer):
         
 class Good_2(MemoryOnePlayer):
     """
-    A generic reactive player. Defined by 2 probabilities conditional on the
-    opponent's last move: P(C|C), P(C|D).
-
-    Names:
-
-    - Reactive: [Nowak1989]_
+   
     """
 
     name = "Good 2"
@@ -425,12 +405,7 @@ class Good_2(MemoryOnePlayer):
         
 class Mean(MemoryOnePlayer):
     """
-    A generic reactive player. Defined by 2 probabilities conditional on the
-    opponent's last move: P(C|C), P(C|D).
-
-    Names:
-
-    - Reactive: [Nowak1989]_
+   
     """
 
     name = "Mean"
