@@ -268,9 +268,7 @@ class Good_ZD1(LRPlayer):
     """
     A Generous Zero Determinant Strategy with l=R.
 
-    Names:
-
-    - ZDGTFT-2: [Stewart2012]_
+   
     """
 
     name = "Good ZD"
@@ -288,9 +286,7 @@ class Good_ZD2(LRPlayer):
     """
     A Generous Zero Determinant Strategy with l=R.
 
-    Names:
-
-    - ZDGTFT-2: [Stewart2012]_
+   
     """
 
     name = "Good ZD2"
@@ -308,9 +304,7 @@ class Good_ZD3(LRPlayer):
     """
     A Generous Zero Determinant Strategy with l=R.
 
-    Names:
-
-    - ZDGTFT-2: [Stewart2012]_
+    
     """
 
     name = "Good ZD3"
